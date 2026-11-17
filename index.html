@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Adwait Jangam | Computer Engineering Portfolio</title>
+  <meta name="description" content="Portfolio of Adwait Jangam - Computer Engineering Student, Test Automation Intern, and Embedded Systems / IoT Enthusiast." />
+  <meta name="author" content="Adwait Jangam" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/jpeg" href="profile.jpg" />
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Adwait Jangam Homepage">
+        <span class="logo-accent">&lt;</span>Adwait<span class="logo-accent">/&gt;</span>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="nav-links" id="navLinks">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#activities" class="nav-link">Activities</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Nav Actions (Theme Toggle & Mobile Menu) -->
+      <div class="nav-actions">
+        <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle dark/light mode" title="Toggle theme">
+          <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <a href="Adwait_Jangam_Resume.pdf" target="_blank" download class="btn btn-outline btn-nav-resume">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="btn-icon">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span>Resume</span>
+        </a>
+
+        <button id="menuToggle" class="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="hero-background-glow"></div>
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="status-badge">
+            <span class="status-dot"></span>
+            <span>Open to Engineering & Tech Opportunities</span>
+          </div>
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Adwait Jangam</span>
+          </h1>
+          <h2 class="hero-subtitle">
+            Computer Engineering Student &bull; Test Automation &bull; Embedded Systems & IoT
+          </h2>
+          <p class="hero-bio">
+            Passionate engineering student with strong foundations in software development, automated testing, cloud infrastructure, and hardware prototyping. Experienced in building automated test suites, working with microcontrollers, and developing scalable software solutions.
+          </p>
+
+          <div class="hero-meta">
+            <div class="meta-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="meta-icon">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <a href="mailto:adwaitjangam15@gmail.com">adwaitjangam15@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <a href="Adwait_Jangam_Resume.pdf" class="btn btn-primary" target="_blank" download>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="btn-icon">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Download Full Resume</span>
+            </a>
+            <a href="#projects" class="btn btn-secondary">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="btn-icon">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+              <span>View Projects</span>
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="btn-icon">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+              </svg>
+              <span>Get in Touch</span>
+            </a>
+          </div>
+
+          <div class="social-links-bar">
+            <a href="https://github.com/adwaiitt" target="_blank" rel="noopener noreferrer" class="social-chip" aria-label="Adwait Jangam GitHub Profile">
+              <svg viewBox="0 0 24 24" fill="currentColor" class="social-icon">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+              </svg>
+              <span>GitHub</span>
+            </a>
+            <a href="https://in.linkedin.com/in/adwait-jangam-a18914395" target="_blank" rel="noopener noreferrer" class="social-chip" aria-label="Adwait Jangam LinkedIn Profile">
+              <svg viewBox="0 0 24 24" fill="currentColor" class="social-icon">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+            <button class="social-chip copy-chip" id="copyEmailBtn" data-email="adwaitjangam15@gmail.com" title="Click to copy email">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="social-icon">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+              <span id="copyEmailText">Copy Email</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-image-wrapper">
+          <div class="avatar-card">
+            <div class="avatar-glow"></div>
+            <div class="avatar-inner">
+              <img src="profile.jpg" alt="Adwait Jangam" class="avatar-img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Professional Summary / About Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Overview</span>
+          <h2 class="section-title">Professional Summary</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-main-card">
+            <p class="lead-text">
+              Computer Engineering student with a comprehensive academic background, having completed a 
+              <strong>Diploma in Electronics and Telecommunication Engineering with 93.29%</strong>, and acquired 
+              hands-on industry experience during an internship at <strong>SmowCode Pvt. Ltd.</strong>
+            </p>
+            <p class="body-text">
+              Deeply interested in software development, automated quality assurance, cloud computing, embedded systems, and IoT. Practical exposure to modern technology stacks including <strong>Python, Selenium, Helium, Jest, AWS, Jenkins CI/CD, ESP32</strong>, and <strong>SmowCode Studio</strong>. Continuously seeking opportunities to apply rigorous programming and problem-solving skills to real-world technology initiatives.
+            </p>
+
+            <div class="stats-row">
+              <div class="stat-box">
+                <span class="stat-number">93.29%</span>
+                <span class="stat-label">Diploma Distinction</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-number">6+ Mos</span>
+                <span class="stat-label">Industry Internship</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-number">2+</span>
+                <span class="stat-label">Hardware & Vision Projects</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-number">88%</span>
+                <span class="stat-label">CBSE Class X</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-side-cards">
+            <div class="highlight-card">
+              <div class="highlight-icon">🎯</div>
+              <div class="highlight-content">
+                <h3>Core Focus Areas</h3>
+                <p>Software Engineering, Test Automation, CI/CD Cloud Pipelines, Microcontrollers & IoT solutions.</p>
+              </div>
+            </div>
+            <div class="highlight-card">
+              <div class="highlight-icon">🌐</div>
+              <div class="highlight-content">
+                <h3>Languages Spoken</h3>
+                <p>English, Hindi, Marathi (Multilingual communication & team collaboration).</p>
+              </div>
+            </div>
+            <div class="highlight-card">
+              <div class="highlight-icon">💡</div>
+              <div class="highlight-content">
+                <h3>Key Interests</h3>
+                <p>AI & Computer Vision, Embedded Hardware, Full-Stack Architecture, Industrial Automation.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Academic Journey</span>
+          <h2 class="section-title">Education & Qualifications</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="timeline">
+          <!-- Item 1: B.E. -->
+          <div class="timeline-item">
+            <div class="timeline-dot current"></div>
+            <div class="timeline-card">
+              <div class="timeline-badge-row">
+                <span class="badge badge-primary">Undergraduate Degree</span>
+                <span class="badge badge-status">Currently in 2nd Year &bull; 2026 – 2029</span>
+              </div>
+              <h3 class="timeline-title">Bachelor of Engineering (B.E.) in Computer Engineering</h3>
+              <h4 class="timeline-institution">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="mini-icon">
+                  <path d="M3 21h18M3 7v14M21 7v14M6 11h2M6 15h2M11 11h2M11 15h2M16 11h2M16 15h2M12 3L2 7h20L12 3z"></path>
+                </svg>
+                Shah &amp; Anchor Kutchhi Engineering College, Mumbai
+              </h4>
+              <p class="timeline-desc">
+                Pursuing comprehensive undergraduate coursework in computer engineering, algorithmic thinking, data structures, computer networks, and full-stack software development.
+              </p>
+              <div class="timeline-tags">
+                <span class="tag">Computer Science</span>
+                <span class="tag">Algorithms</span>
+                <span class="tag">Software Engineering</span>
+                <span class="tag">Database Systems</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2: Diploma -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-badge-row">
+                <span class="badge badge-accent">Diploma Engineering</span>
+                <span class="badge badge-success">Score: 93.29% (First Class with Distinction)</span>
+              </div>
+              <h3 class="timeline-title">Diploma in Electronics and Telecommunication Engineering</h3>
+              <h4 class="timeline-institution">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="mini-icon">
+                  <path d="M3 21h18M3 7v14M21 7v14M6 11h2M6 15h2M11 11h2M11 15h2M16 11h2M16 15h2M12 3L2 7h20L12 3z"></path>
+                </svg>
+                SVKM's Shri Bhagubhai Mafatlal Polytechnic &amp; College of Engineering, Vile Parle, Mumbai
+              </h4>
+              <p class="timeline-dates">2023 – 2026</p>
+              <p class="timeline-desc">
+                Graduated with an outstanding academic record of <strong>93.29%</strong>. Developed deep expertise in electronic circuit design, embedded microcontrollers (ESP32, Raspberry Pi), telecommunication protocols, signal analysis, and hardware-software integration.
+              </p>
+              <div class="timeline-tags">
+                <span class="tag">Electronics &amp; Telecom</span>
+                <span class="tag">Microcontrollers</span>
+                <span class="tag">PCB Design</span>
+                <span class="tag">93.29% Grade</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3: Class 10 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-badge-row">
+                <span class="badge badge-muted">Secondary School</span>
+                <span class="badge badge-success">Score: 88.00%</span>
+              </div>
+              <h3 class="timeline-title">AISSE – CBSE Class 10</h3>
+              <h4 class="timeline-institution">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="mini-icon">
+                  <path d="M3 21h18M3 7v14M21 7v14M6 11h2M6 15h2M11 11h2M11 15h2M16 11h2M16 15h2M12 3L2 7h20L12 3z"></path>
+                </svg>
+                Holy Angels' School and Junior College, Dombivli – Thane
+              </h4>
+              <p class="timeline-dates">Completed in 2023</p>
+              <p class="timeline-desc">
+                Achieved 88% in the Central Board of Secondary Education examinations with distinction in Mathematics, Science, and Computer Foundations.
+              </p>
+              <div class="timeline-tags">
+                <span class="tag">CBSE</span>
+                <span class="tag">Science &amp; Mathematics</span>
+                <span class="tag">88% Grade</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience / Internship Section -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Industry Experience</span>
+          <h2 class="section-title">Internship &amp; Work History</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="experience-card">
+          <div class="exp-header">
+            <div class="exp-role-info">
+              <div class="exp-badge">Full-Term Internship</div>
+              <h3 class="exp-title">Software / Test Automation Intern</h3>
+              <h4 class="exp-company">
+                <span class="company-name">SmowCode Pvt. Ltd.</span>
+                <span class="exp-location">&bull; Mumbai, India</span>
+              </h4>
+            </div>
+            <div class="exp-duration">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="mini-icon">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+              <span>December 2025 – June 2026</span>
+            </div>
+          </div>
+
+          <p class="exp-summary">
+            Collaborated directly with the core engineering and frontend team to engineer test automation frameworks, enhance software quality assurance, deploy cloud services, and bridge software with industrial automation hardware.
+          </p>
+
+          <div class="exp-duties">
+            <h5 class="duties-title">Key Contributions &amp; Technical Responsibilities:</h5>
+            <ul class="duties-list">
+              <li>
+                <span class="bullet-icon">▹</span>
+                <div>
+                  <strong>Automated Browser Testing:</strong> Engineered end-to-end automated test scripts using <strong>Python, Selenium</strong>, and <strong>Helium</strong> to systematically validate frontend application workflows and minimize manual regression testing time.
+                </div>
+              </li>
+              <li>
+                <span class="bullet-icon">▹</span>
+                <div>
+                  <strong>Frontend Collaboration &amp; QA:</strong> Worked closely with the Frontend engineering team on test automation strategies, automated debugging, and continuous quality assurance pipelines.
+                </div>
+              </li>
+              <li>
+                <span class="bullet-icon">▹</span>
+                <div>
+                  <strong>JavaScript Unit Testing:</strong> Studied and implemented unit testing strategies using <strong>Jest</strong> for modular testing of JavaScript and React-based applications.
+                </div>
+              </li>
+              <li>
+                <span class="bullet-icon">▹</span>
+                <div>
+                  <strong>Cloud Infrastructure &amp; Deployment:</strong> Explored and utilized core <strong>AWS Cloud Services</strong> including <strong>EC2, Lambda, S3</strong>, and <strong>CloudFront CDN</strong> for modern serverless and cloud hosting architectures.
+                </div>
+              </li>
+              <li>
+                <span class="bullet-icon">▹</span>
+                <div>
+                  <strong>CI/CD Pipelines:</strong> Analyzed and implemented continuous integration and delivery pipelines with <strong>Jenkins</strong> to automate build, verification, and deployment lifecycles.
+                </div>
+              </li>
+              <li>
+                <span class="bullet-icon">▹</span>
+                <div>
+                  <strong>Industrial Automation &amp; Hardware Mapping:</strong> Investigated <strong>PLC (Programmable Logic Controller)</strong> architectures and designed terminal-to-hardware resource mappings for industrial automation systems.
+                </div>
+              </li>
+              <li>
+                <span class="bullet-icon">▹</span>
+                <div>
+                  <strong>Modern Web Workflows:</strong> Gained hands-on production exposure to <strong>Next.js</strong>, responsive web architecture, and collaborative team version control workflows.
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="exp-tech-stack">
+            <span class="stack-label">Technologies Used:</span>
+            <div class="tech-pills">
+              <span class="tech-pill">Python</span>
+              <span class="tech-pill">Selenium</span>
+              <span class="tech-pill">Helium</span>
+              <span class="tech-pill">Jest</span>
+              <span class="tech-pill">Next.js</span>
+              <span class="tech-pill">AWS (EC2, Lambda, S3, CloudFront)</span>
+              <span class="tech-pill">Jenkins CI/CD</span>
+              <span class="tech-pill">PLC Architecture</span>
+              <span class="tech-pill">Git</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Applied Engineering</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card">
+            <div class="project-card-header">
+              <div class="project-badge">IoT &amp; AI Assistive Tech</div>
+              <div class="project-links">
+                <span class="project-icon-badge" title="Embedded Device Project">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="mini-icon">
+                    <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
+                    <rect x="9" y="9" width="6" height="6"></rect>
+                    <line x1="9" y1="1" x2="9" y2="4"></line>
+                    <line x1="15" y1="1" x2="15" y2="4"></line>
+                    <line x1="9" y1="20" x2="9" y2="23"></line>
+                    <line x1="15" y1="20" x2="15" y2="23"></line>
+                    <line x1="20" y1="9" x2="23" y2="9"></line>
+                    <line x1="20" y1="14" x2="23" y2="14"></line>
+                    <line x1="1" y1="9" x2="4" y2="9"></line>
+                    <line x1="1" y1="14" x2="4" y2="14"></line>
+                  </svg>
+                </span>
+              </div>
+            </div>
+
+            <h3 class="project-title">Smart Vision for Visually Impaired</h3>
+            <p class="project-category">Wearable Assistive Computing System</p>
+            <p class="project-description">
+              Conceptualized and engineered a wearable smart device to empower visually impaired individuals with autonomous indoor navigation, environmental awareness, and obstacle prevention.
+            </p>
+
+            <div class="project-features">
+              <h5 class="features-title">Technical Highlights:</h5>
+              <ul>
+                <li>Developed wearable form-factor integrating vision cameras and ultrasonic sensors.</li>
+                <li>Implemented real-time camera-based object detection and face recognition algorithms.</li>
+                <li>Engineered ultrasonic obstacle ranging to detect low and high-hanging obstacles.</li>
+                <li>Designed an instant voice feedback synthesizer delivering audio cues and directional guidance.</li>
+                <li>Configured Raspberry Pi for complete <strong>offline edge processing</strong>, ensuring low latency and privacy without requiring constant internet access.</li>
+              </ul>
+            </div>
+
+            <div class="project-tags">
+              <span class="tag">Raspberry Pi</span>
+              <span class="tag">Python</span>
+              <span class="tag">Object Detection</span>
+              <span class="tag">Face Recognition</span>
+              <span class="tag">Ultrasonic Sensors</span>
+              <span class="tag">Edge AI</span>
+              <span class="tag">Text-to-Speech</span>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card">
+            <div class="project-card-header">
+              <div class="project-badge">Electronics &amp; Hardware</div>
+              <div class="project-links">
+                <span class="project-icon-badge" title="Hardware & PCB Design">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="mini-icon">
+                    <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                  </svg>
+                </span>
+              </div>
+            </div>
+
+            <h3 class="project-title">Two-Stage CE Amplifier</h3>
+            <p class="project-category">PCB Design, Simulation &amp; Physical Fabrication</p>
+            <p class="project-description">
+              End-to-end design, simulation, chemical fabrication, and laboratory validation of a high-gain two-stage Common-Emitter (CE) transistor amplifier circuit for analog signal amplification.
+            </p>
+
+            <div class="project-features">
+              <h5 class="features-title">Technical Highlights:</h5>
+              <ul>
+                <li>Calculated component biasing, gain parameters, and frequency response for optimal stability.</li>
+                <li>Designed complete schematic and PCB layout using <strong>EasyEDA</strong> with comprehensive 2D and 3D simulation.</li>
+                <li>Fabricated physical printed circuit boards using copper-clad board chemical etching techniques.</li>
+                <li>Precision assembled, through-hole soldered, and verified component values.</li>
+                <li>Conducted rigorous functional testing with oscilloscopes and signal generators in the college lab.</li>
+              </ul>
+            </div>
+
+            <div class="project-tags">
+              <span class="tag">EasyEDA</span>
+              <span class="tag">PCB Fabrication</span>
+              <span class="tag">Circuit Simulation</span>
+              <span class="tag">Analog Electronics</span>
+              <span class="tag">Soldering</span>
+              <span class="tag">Lab Testing</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills Matrix -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Competencies</span>
+          <h2 class="section-title">Technical Skills Matrix</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Skill Group 1: Programming -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="cat-icon code-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <h3 class="cat-title">Programming</h3>
+            </div>
+            <div class="skill-chips-list">
+              <span class="skill-chip"><span class="chip-dot"></span>Python</span>
+              <span class="skill-chip"><span class="chip-dot"></span>C</span>
+              <span class="skill-chip"><span class="chip-dot"></span>JavaScript</span>
+              <span class="skill-chip"><span class="chip-dot"></span>Assembly Language</span>
+            </div>
+          </div>
+
+          <!-- Skill Group 2: Testing & QA -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="cat-icon test-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                  <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                </svg>
+              </div>
+              <h3 class="cat-title">Testing &amp; Automation</h3>
+            </div>
+            <div class="skill-chips-list">
+              <span class="skill-chip"><span class="chip-dot"></span>Selenium</span>
+              <span class="skill-chip"><span class="chip-dot"></span>Helium</span>
+              <span class="skill-chip"><span class="chip-dot"></span>Jest</span>
+              <span class="skill-chip"><span class="chip-dot"></span>Automated Testing</span>
+              <span class="skill-chip"><span class="chip-dot"></span>Debugging &amp; QA</span>
+            </div>
+          </div>
+
+          <!-- Skill Group 3: Cloud & DevOps -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="cat-icon cloud-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+                </svg>
+              </div>
+              <h3 class="cat-title">Cloud &amp; DevOps</h3>
+            </div>
+            <div class="skill-chips-list">
+              <span class="skill-chip"><span class="chip-dot"></span>AWS (EC2, Lambda)</span>
+              <span class="skill-chip"><span class="chip-dot"></span>AWS S3 &amp; CloudFront</span>
+              <span class="skill-chip"><span class="chip-dot"></span>Jenkins</span>
+              <span class="skill-chip"><span class="chip-dot"></span>CI/CD Pipelines</span>
+            </div>
+          </div>
+
+          <!-- Skill Group 4: Web & Dev Tools -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="cat-icon web-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                </svg>
+              </div>
+              <h3 class="cat-title">Web &amp; Development</h3>
+            </div>
+            <div class="skill-chips-list">
+              <span class="skill-chip"><span class="chip-dot"></span>Next.js</span>
+              <span class="skill-chip"><span class="chip-dot"></span>HTML5 / CSS3</span>
+              <span class="skill-chip"><span class="chip-dot"></span>Git &amp; GitHub</span>
+              <span class="skill-chip"><span class="chip-dot"></span>VS Code</span>
+              <span class="skill-chip"><span class="chip-dot"></span>SmowCode Studio</span>
+            </div>
+          </div>
+
+          <!-- Skill Group 5: Embedded Systems & IoT -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="cat-icon iot-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
+                  <line x1="1" y1="12" x2="4" y2="12"></line>
+                  <line x1="20" y1="12" x2="23" y2="12"></line>
+                  <line x1="12" y1="1" x2="12" y2="4"></line>
+                  <line x1="12" y1="20" x2="12" y2="23"></line>
+                </svg>
+              </div>
+              <h3 class="cat-title">Embedded &amp; IoT</h3>
+            </div>
+            <div class="skill-chips-list">
+              <span class="skill-chip"><span class="chip-dot"></span>ESP32</span>
+              <span class="skill-chip"><span class="chip-dot"></span>Raspberry Pi</span>
+              <span class="skill-chip"><span class="chip-dot"></span>Microcontrollers</span>
+              <span class="skill-chip"><span class="chip-dot"></span>GPIO / UART / SPI / I2C</span>
+            </div>
+          </div>
+
+          <!-- Skill Group 6: Electronics & Hardware -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="cat-icon chip-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                </svg>
+              </div>
+              <h3 class="cat-title">Electronics &amp; Hardware</h3>
+            </div>
+            <div class="skill-chips-list">
+              <span class="skill-chip"><span class="chip-dot"></span>EasyEDA</span>
+              <span class="skill-chip"><span class="chip-dot"></span>PCB Design</span>
+              <span class="skill-chip"><span class="chip-dot"></span>Circuit Design</span>
+              <span class="skill-chip"><span class="chip-dot"></span>PLC Fundamentals</span>
+            </div>
+          </div>
+
+          <!-- Skill Group 7: Core Engineering Concepts -->
+          <div class="skill-category-card full-span">
+            <div class="category-header">
+              <div class="cat-icon concept-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
+              </div>
+              <h3 class="cat-title">Core Engineering &amp; Computer Science Concepts</h3>
+            </div>
+            <div class="skill-chips-list">
+              <span class="skill-chip"><span class="chip-dot"></span>Software Testing Methodologies</span>
+              <span class="skill-chip"><span class="chip-dot"></span>Software Quality Assurance</span>
+              <span class="skill-chip"><span class="chip-dot"></span>Debugging &amp; Root Cause Analysis</span>
+              <span class="skill-chip"><span class="chip-dot"></span>Cloud Computing Paradigms</span>
+              <span class="skill-chip"><span class="chip-dot"></span>Computer Networking &amp; Protocols</span>
+              <span class="skill-chip"><span class="chip-dot"></span>Hardware-Software Co-Design</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Leadership & Extracurricular Activities Section -->
+    <section class="section activities-section" id="activities">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Extracurricular</span>
+          <h2 class="section-title">Leadership &amp; Activities</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="activity-cards-grid">
+          <div class="activity-card">
+            <div class="activity-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="activity-svg">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <div class="activity-body">
+              <div class="activity-badge">Departmental Event</div>
+              <h3 class="activity-title">Volunteer &ndash; TechFair'24</h3>
+              <p class="activity-org">Joint Event by Electronics &amp; Telecommunication and Electrical Departments</p>
+              <ul class="activity-bullets">
+                <li>Volunteered in organizing, coordinating, and hosting a major departmental technical symposium and project exhibition.</li>
+                <li>Collaborated with a multidisciplinary student and faculty team to coordinate project displays, schedule presentations, and manage guest logistics.</li>
+                <li>Successfully balanced event management responsibilities alongside rigorous engineering academic coursework.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="activity-card info-summary-card">
+            <div class="activity-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="activity-svg">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+                <path d="M2 12h20"></path>
+              </svg>
+            </div>
+            <div class="activity-body">
+              <div class="activity-badge">Communication &amp; Drive</div>
+              <h3 class="activity-title">Languages &amp; Core Interests</h3>
+              <div class="info-block">
+                <strong>Spoken Languages:</strong>
+                <p>Fluent in <em>English</em>, <em>Hindi</em>, and <em>Marathi</em>.</p>
+              </div>
+              <div class="info-block">
+                <strong>Passion &amp; Career Trajectory:</strong>
+                <p>Enthusiastic about applying automated testing, cloud-native frameworks, AI, and edge IoT devices to solve real engineering bottlenecks.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Connect Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Let's Connect</span>
+          <h2 class="section-title">Get In Touch</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            Whether you have an internship opportunity, a project collaboration, or any queries, feel free to reach out!
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left: Contact Details Cards -->
+          <div class="contact-info-column">
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div class="contact-card-text">
+                <span class="label">Email Address</span>
+                <a href="mailto:adwaitjangam15@gmail.com" class="val">adwaitjangam15@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+              </div>
+              <div class="contact-card-text">
+                <span class="label">LinkedIn Profile</span>
+                <a href="https://in.linkedin.com/in/adwait-jangam-a18914395" target="_blank" rel="noopener noreferrer" class="val">linkedin.com/in/adwait-jangam-a18914395</a>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                </svg>
+              </div>
+              <div class="contact-card-text">
+                <span class="label">GitHub Profile</span>
+                <a href="https://github.com/adwaiitt" target="_blank" rel="noopener noreferrer" class="val">github.com/adwaiitt</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Quick Message Form -->
+          <div class="contact-form-wrapper">
+            <h3 class="form-title">Send a Quick Message</h3>
+            <p class="form-desc">Recruiters, mentors, and peers can drop a message here directly.</p>
+            
+            <form id="contactForm" class="contact-form">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="John Doe" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="john@example.com" required />
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Opportunity / Project Collaboration" required />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="Hello Adwait, I would like to discuss..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block" id="formSubmitBtn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="btn-icon">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+                <span>Send Message</span>
+              </button>
+              <div id="formFeedback" class="form-feedback" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <a href="#hero" class="brand-logo">
+          <span class="logo-accent">&lt;</span>Adwait<span class="logo-accent">/&gt;</span>
+        </a>
+        <p class="footer-copy">
+          &copy; <span id="currentYear">2026</span> Adwait Jangam. All rights reserved.
+        </p>
+        <p class="footer-lab-tag">
+          Designed &amp; Developed for College Laboratory Experiment &bull; Web Technology Portfolio
+        </p>
+      </div>
+
+      <div class="footer-right">
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#education">Education</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <button id="backToTop" class="back-to-top" title="Scroll back to top" aria-label="Scroll back to top">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"></polyline>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Container -->
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
